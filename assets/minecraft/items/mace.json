@@ -1,20 +1,19 @@
 {
   "model": {
-    "type": "minecraft:select",
+    "type": "minecraft:range_dispatch",
     "property": "minecraft:custom_model_data",
-    "index": 0,
-    "cases": [
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/mace"
+    },
+    "entries": [
       {
-        "when": 1001,
+        "threshold": 1001,
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/runic_warhammer"
         }
       }
-    ],
-    "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/mace"
-    }
+    ]
   }
 }

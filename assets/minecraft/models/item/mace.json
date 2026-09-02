@@ -9,6 +9,12 @@
         "custom_model_data": 1001
       },
       "model": "minecraft:item/runic_warhammer"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1001.0
+      },
+      "model": "minecraft:item/runic_warhammer"
     }
   ]
 }
