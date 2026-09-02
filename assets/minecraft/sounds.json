@@ -1,0 +1,32 @@
+{
+  "vibe.mace.throw": {
+    "sounds": [
+      { "name": "minecraft:item/trident/throw", "volume": 2.0, "pitch": 0.8 },
+      { "name": "minecraft:entity/wind_charge/wind_burst", "volume": 1.5, "pitch": 1.2 }
+    ],
+    "subtitle": "Бросок Золотой Булавы"
+  },
+  "vibe.mace.impact": {
+    "sounds": [
+      { "name": "minecraft:item/mace/smash_ground_heavy", "volume": 2.0, "pitch": 0.8 },
+      { "name": "minecraft:entity/lightning_bolt/impact", "volume": 2.0, "pitch": 1.1 },
+      { "name": "minecraft:item/trident/thunder", "volume": 2.0, "pitch": 0.9 }
+    ],
+    "subtitle": "Громовой Удар"
+  },
+  "vibe.mace.storm": {
+    "sounds": [
+      { "name": "minecraft:item/trident/thunder", "volume": 2.0, "pitch": 0.75 },
+      { "name": "minecraft:entity/lightning_bolt/thunder", "volume": 2.0, "pitch": 1.0 },
+      { "name": "minecraft:block/beacon/activate", "volume": 2.0, "pitch": 1.2 }
+    ],
+    "subtitle": "Зов Грозы"
+  },
+  "vibe.mace.return": {
+    "sounds": [
+      { "name": "minecraft:item/trident/return", "volume": 2.0, "pitch": 1.1 },
+      { "name": "minecraft:item/armor/equip_gold", "volume": 1.5, "pitch": 1.3 }
+    ],
+    "subtitle": "Возврат Золотой Булавы"
+  }
+}
