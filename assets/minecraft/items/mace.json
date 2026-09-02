@@ -11,7 +11,7 @@
         "threshold": 1001,
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/runic_warhammer"
+          "model": "minecraft:item/golden_mace"
         }
       }
     ]
